@@ -69,7 +69,8 @@ public class Hello {
 
 ### Test 2：基礎型別、算數、迴圈
 
-* bytecode - https://emacsist.github.io/2017/06/19/jvm%E5%AD%97%E8%8A%82%E7%A0%81%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%90%86%E8%A7%A3
+* [opcode查詢](https://emacsist.github.io/2017/06/19/jvm%E5%AD%97%E8%8A%82%E7%A0%81%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%90%86%E8%A7%A3)
+* [LocalVariable+Stack圖文範例](https://blog.fangweb.com/2018/11/12/%e7%b0%a1%e5%96%ae%e8%ae%80%e6%87%82-java-%e4%bd%8d%e5%85%83%e7%b5%84%e7%a2%bc/zh-tw/)
   
 
 ```java
