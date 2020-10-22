@@ -82,7 +82,6 @@ public class Hello2 {
             money = money * times;
             times--;
         }
-        System.out.println(money);
     }
 }
 ```
@@ -154,3 +153,14 @@ S：Stack
 13. goto 6：回到 Label 6
 
 - - -
+## Java memory model
+
+![](https://github.com/shuweide/JAVA-000/blob/main/Week_01/jvm%20memory%20model.png
+
+## Java command line tools
+
+- - -
+## Java graph tools
+
+- - -
+##
