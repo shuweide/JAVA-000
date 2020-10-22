@@ -155,7 +155,7 @@ S：Stack
 - - -
 ## Java memory model
 
-![](https://github.com/shuweide/JAVA-000/blob/main/Week_01/jvm%20memory%20model.png
+![](https://github.com/shuweide/JAVA-000/blob/main/Week_01/jvm%20memory%20model.png)
 
 ## Java command line tools
 
