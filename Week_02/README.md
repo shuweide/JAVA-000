@@ -3,6 +3,9 @@
 ## 參考資料
 * [如何选择合适的 GC 时间 —— USER, SYS, REAL？](https://my.oschina.net/dabird/blog/714569)
 * [What do 'real', 'user' and 'sys' mean in the output of time(1)?](https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1?lq=1)
+* [读懂一行Full GC日志](https://cloud.tencent.com/developer/article/1082687)
+* [Java虚拟机详解04----GC算法和种类](https://www.cnblogs.com/qianguyihao/p/4744233.html)
+
 
 ## GC觀念
 
