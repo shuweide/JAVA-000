@@ -20,7 +20,7 @@
 ## GC觀念
 
 ### VMOptions
-* Print GC：-XX:+PrintGC
+* Print GC：-XX:+PrintGCDetails/-XX:+PrintGC
 * Print GC timestamp：-XX:PrintGCDateStamps
 * Export GC log：-Xloggc:**filepath**
 
@@ -52,7 +52,7 @@
   * 尺寸:	DIMM
   * 硬體保留:	67.7 MB
 
-## SerialGC
+## Serial GC
 
 * -XX:+UseSerialGC
 * SerialGC使用單線程處理GC，因此user + sys = real。
@@ -651,3 +651,16 @@ Heap
 
 ```
 </details>
+
+## G1 GC
+
+* -XX:+UseG1GC
+* -XX:G1HeapRegionSize，設定每個Region大小，預設為記憶體的1/2000
+* -XX:G1MaxNewSizePercent，最大年輕代占用Heap百分比
+* -XX:G1NewSizePercent，初始年輕代占用Heap百分比
+* -XX:ConcGCThreads，執行GC的Threads，預設為CPU內核的1/4
+* -XX:+InitiatingHeapOccupancyPercent，設定老年代占用多少要執行GC，預設為45%
+* -XX:G1HeapWastePercent，設定G1停止回收的最小內存大小，預設為5%
+* -XX:+GCTimeRatio，百分比=100(1+GCTimeRatio)，表示花在GC線程上的時間比率。
+* -XX:MaxGCPauseMills，預期每次執行GC最大的暫停時間
+
