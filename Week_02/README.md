@@ -661,6 +661,8 @@ Heap
 * -XX:ConcGCThreads，執行GC的Threads，預設為CPU內核的1/4
 * -XX:+InitiatingHeapOccupancyPercent，設定老年代占用多少要執行GC，預設為45%
 * -XX:G1HeapWastePercent，設定G1停止回收的最小內存大小，預設為5%
-* -XX:+GCTimeRatio，百分比=100(1+GCTimeRatio)，表示花在GC線程上的時間比率。
-* -XX:MaxGCPauseMills，預期每次執行GC最大的暫停時間
-
+* -XX:+GCTimeRatio，百分比=100(1+GCTimeRatio)，表示花在GC線程上的時間比率
+* -XX:MaxGCPauseMills，預期每次執行GC最大的暫停時間，預設為200
+* G1 GC 步驟
+  * Evacuation Pause - 年輕代模式轉移暫停
+  * 
