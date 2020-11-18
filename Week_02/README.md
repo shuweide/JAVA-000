@@ -7,6 +7,9 @@
 * [Java虚拟机详解04----GC算法和种类](https://www.cnblogs.com/qianguyihao/p/4744233.html)
 * [JVM调优实战：解决CMS concurrent-abortable-preclean LongGC的问题](https://blog.csdn.net/flysqrlboy/article/details/88679457)
 * [CMS之promotion failed&concurrent mode failure](https://www.jianshu.com/p/ca1b0d4107c5)
+* [深入理解 Java G1 垃圾收集器](http://ghoulich.xninja.org/2018/01/27/understanding-g1-garbage-collector-in-java/)
+* [JVM调优实战：G1中的to-space exhausted问题](https://juejin.im/post/6844903923648561166)
+  
 
 ## Tools
 * GCEasy - https://gceasy.io/
@@ -664,5 +667,38 @@ Heap
 * -XX:+GCTimeRatio，百分比=100(1+GCTimeRatio)，表示花在GC線程上的時間比率
 * -XX:MaxGCPauseMills，預期每次執行GC最大的暫停時間，預設為200
 * G1 GC 步驟
-  * Evacuation Pause - 年輕代模式轉移暫停
-  * 
+  * Evacuation Pause (young) - 年輕代模式轉移暫停
+  * Concurrent Marking
+    * initial-mark
+    * concurrent-root-region-scan
+    * concurrent-mark
+    * remark
+    * cleanup
+  * Evacuation Pause (mixed) - 转移暂停: 混合模式
+
+
+<details>
+<summary>gc log use xmx128m, OOM</summary>
+
+temp
+
+</details>
+
+<details>
+<summary>gc log use xmx256m, OOM</summary>
+
+temp
+
+</details>
+
+<summary>gc log use xmx1g, 17978 times</summary>
+
+temp
+
+</details>
+
+<summary>gc log use xmx2g, 15093 times</summary>
+
+temp
+
+</details>
