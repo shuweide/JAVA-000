@@ -18,6 +18,7 @@
 * Eclipse MAT - https://www.eclipse.org/mat/
 * jvisualvm - https://visualvm.github.io/
 * jmc - https://www.oracle.com/java/technologies/javase/products-jmc7-downloads.html
+  * vmoptions：-XX:+UnlockCommercialFeatures -XX:+FlightRecorder
 * superbechmarker - https://github.com/aliostad/SuperBenchmarker
 
 ## GC觀念
