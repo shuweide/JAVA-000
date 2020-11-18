@@ -680,25 +680,27 @@ Heap
 <details>
 <summary>gc log use xmx128m, OOM</summary>
 
-temp
+![](https://github.com/shuweide/JAVA-000/blob/main/Week_02/gc.128m.g1gc.png)
 
 </details>
 
 <details>
 <summary>gc log use xmx256m, OOM</summary>
 
-temp
+![](https://github.com/shuweide/JAVA-000/blob/main/Week_02/gc.256m.g1gc.png)
 
 </details>
 
+<details>
 <summary>gc log use xmx1g, 17978 times</summary>
 
-temp
+![](https://github.com/shuweide/JAVA-000/blob/main/Week_02/gc.1g.g1gc.png)
 
 </details>
 
+<details>
 <summary>gc log use xmx2g, 15093 times</summary>
 
-temp
+![](https://github.com/shuweide/JAVA-000/blob/main/Week_02/gc.2g.g1gc.png)
 
 </details>
