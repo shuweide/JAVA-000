@@ -1,5 +1,15 @@
 # 學習筆記
 
+## 參考資料
+
+* [JVM Internals](https://blog.jamesdbloom.com/JVMInternals.html)
+* [理解 invokedynamic](https://www.jianshu.com/p/d74e92f93752)
+* [簡單讀懂 Java 位元組碼](https://blog.fangweb.com/2018/11/12/%E7%B0%A1%E5%96%AE%E8%AE%80%E6%87%82-java-%E4%BD%8D%E5%85%83%E7%B5%84%E7%A2%BC/zh-tw/)
+* [关于JVM类加载机制，看这一篇就够了](https://juejin.cn/post/6865572557329072141)
+* [Java bytecode instruction listings](https://en.wikipedia.org/wiki/Java_bytecode_instruction_listings)
+* [opcode查詢](https://emacsist.github.io/2017/06/19/jvm%E5%AD%97%E8%8A%82%E7%A0%81%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%90%86%E8%A7%A3)
+* [LocalVariable+Stack圖文範例](https://blog.fangweb.com/2018/11/12/%e7%b0%a1%e5%96%ae%e8%ae%80%e6%87%82-java-%e4%bd%8d%e5%85%83%e7%b5%84%e7%a2%bc/zh-tw/)
+
 ## 如何看 java bytecode 
 
 ### javap : Disassembles one or more class files.
@@ -68,10 +78,6 @@ public class Hello {
 - - -
 
 ### Test 2：基礎型別、算數、迴圈
-
-* [opcode查詢](https://emacsist.github.io/2017/06/19/jvm%E5%AD%97%E8%8A%82%E7%A0%81%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%90%86%E8%A7%A3)
-* [LocalVariable+Stack圖文範例](https://blog.fangweb.com/2018/11/12/%e7%b0%a1%e5%96%ae%e8%ae%80%e6%87%82-java-%e4%bd%8d%e5%85%83%e7%b5%84%e7%a2%bc/zh-tw/)
-  
 
 ```java
 public class Hello2 {
